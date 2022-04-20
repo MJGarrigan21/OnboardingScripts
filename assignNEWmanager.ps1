@@ -2,10 +2,10 @@
 
 Connect-AzureAD
 
-$UserUPN = "bjesser@missionrestoration.com"
+$UserUPN = ""
 $UserObjectID = (Get-AzureADUser -ObjectId $UserUPN).ObjectId
 
-$NewManUPN = "bphillips@Missionrestoration.com"
+$NewManUPN = ""
 $ManObjectID = (Get-AzureADUser -ObjectId $NewManUPN).ObjectId
 
 Set-AzureADUserManager -ObjectId $UserObjectID -RefObjectId $ManObjectID

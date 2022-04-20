@@ -1,9 +1,9 @@
-﻿#Assign NEW Groups to User]
+﻿#Assign NEW Groups to User
 
 Connect-AzureAD
 
 #User Variables
-$UserUPN = "bjesser@missionrestoration.com"
+$UserUPN = ""
 $UPNObjectID = (Get-AzureADUser -ObjectId $UserUPN).ObjectId
 
 #Group Variables

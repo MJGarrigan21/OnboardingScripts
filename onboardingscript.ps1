@@ -3,20 +3,20 @@
 
 #Defining password
 $PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
-$PasswordProfile.Password = "Mission1465"
+$PasswordProfile.Password = ""
 $PasswordProfile.ForceChangePasswordNextLogin = $true
 
 
 #User Variables
-$userUPN = "cmccracken@missionrestoration.com"
-$DisplayName = "Casey McCracken"
-$GivenName = "Casey"
-$Surname = "McCracken"
-$MailNickName = "cmccracken"
-$Department = "Marketing"
-$JobTitle = "Inside Sales Rep"
+$userUPN = ""
+$DisplayName = ""
+$GivenName = ""
+$Surname = ""
+$MailNickName = ""
+$Department = ""
+$JobTitle = ""
 $UL = "US" #Usage Location
-$CompanyName = "Mission Restoration"
+$CompanyName = ""
 
 
 #User Creation. Will not assign a license, manager, or groups
